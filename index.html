@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasin Khan</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <div id="navBar" class="navBar">
+    <div onclick="openMenu()" class="menuIcon"><i class="bi-list"></i></div>
+    <div class="navlist">
+        <a href="#About me">About me</a>
+        <a href="#education">Education</a>
+        <a href="#Contact us">Contact us</a>
+    </div>
+    <img class="navprofile" src="./hero.jpg" alt="navprofile">
+    
+  </div>
+  <main>
+    <div class="profileBody">
+        <div class="profileInfo">
+            <p class="text1">Hello, this is </p>
+            <p class="text2">YASIN KHAN</p>
+            <p class="text3">Data Scientist</p>
+            <div class="skillset">
+                <p class="text4">Data Scientist</p>
+                <p class="text5">Entrepreneur</p>
+            </div>
+
+        </div>
+        <div>
+            <img class="profileimg " src="./hero.jpg" alt="navprofile">
+
+        </div>
+    </div>
+    <div id="About Me" class="aboutmebody">
+        <p>Im yasin khan 
+            from mpl
+            currently pursuing b.tech 
+            from mits
+            mpl
+        </p>
+    </div>
+  </main>  
+</body>
+<script>
+    function openMenu(){
+        document.getElementById('navBar')?.classList.toggle('active');
+    }
+</script>
+</html>
